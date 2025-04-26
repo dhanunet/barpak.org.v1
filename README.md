@@ -1,10 +1,54 @@
-# Beautiful Barpak
+# Smart Barpak
 
-The website repo for [Beautiful Barpak](https://barpak.org). This project is under the [Beautiful Nepal](https://beautifulnepal.org) project.
+The website repo for [Smart Barpak](https://barpak.org), the 1st Smart Village in the Gorkha District, Nepal.
 
-# Run with Docker
+# Run via Docker Compose
 
-1. Go into this project directory
-2. Run the following command:
+We recommend using the `docker compose` command to manage your developer environment.
 
-   docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+Go through the following instructions to find how to manage different scenarios during development:
+
+## Bring up the server for first time
+
+To bring up the server, run the following command:
+
+```
+docker compose up -d
+```
+
+## Stop the server
+
+To stop the server, run the following command:
+
+```
+docker compose stop
+```
+
+## Start the server
+
+To start the stopped server, run the following command:
+
+```
+docker compose start
+```
+
+## Restart the server
+
+While working you might need to restart server on configuration changse, then restart the server by running following command:
+
+```
+docker compose restart
+```
+
+## Remove the server instance
+
+If you want to remove the server and start fresh, then run the following command:
+
+```
+docker compose down
+```
+
+# Maintainers
+
+- [Dhanu Sir](https://github.com/dhanusir) - Mentor
+- [Gorkha Dev](https://github.com/@gorkhadev) - Lead
