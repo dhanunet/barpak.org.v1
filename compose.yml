@@ -1,0 +1,8 @@
+services:
+  web:
+    container_name: webserver 
+    image: "bretfisher/jekyll-serve"
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./:/site

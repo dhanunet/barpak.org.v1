@@ -13,7 +13,7 @@ Go through the following instructions to find how to manage different scenarios 
 To bring up the server, run the following command:
 
 ```
-docker compose up -d
+docker-compose up -d
 ```
 
 ## Stop the server
@@ -21,7 +21,7 @@ docker compose up -d
 To stop the server, run the following command:
 
 ```
-docker compose stop
+docker-compose stop
 ```
 
 ## Start the server
@@ -29,7 +29,7 @@ docker compose stop
 To start the stopped server, run the following command:
 
 ```
-docker compose start
+docker-compose start
 ```
 
 ## Restart the server
@@ -37,7 +37,7 @@ docker compose start
 While working you might need to restart server on configuration changse, then restart the server by running following command:
 
 ```
-docker compose restart
+docker-compose restart
 ```
 
 ## Remove the server instance
@@ -45,10 +45,10 @@ docker compose restart
 If you want to remove the server and start fresh, then run the following command:
 
 ```
-docker compose down
+docker-compose down
 ```
 
 # Maintainers
 
 - [Dhanu Sir](https://github.com/dhanusir) - Mentor
-- [Gorkha Dev](https://github.com/@gorkhadev) - Lead
+
